@@ -2,9 +2,9 @@
   "name": "nodeprectice",
   "version": "1.0.0",
   "description": "",
-  "main": "index.ts",
+  "main": "app.ts",
   "scripts": {
-    "start": "nodemon index.ts"
+    "start": "nodemon app.ts"
   },
   "author": "",
   "license": "ISC",

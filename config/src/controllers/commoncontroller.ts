@@ -9,6 +9,7 @@ import crypto from "crypto";
 import Tokens from "../models/Tokens";
 import Product from "../models/Product";
 import Review from "../models/Review";
+
 const postApi = async (req: Request, res: Response) => {
   const data = new model({
     ProductName: req.body.ProductName,

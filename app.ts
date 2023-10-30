@@ -12,6 +12,7 @@ app.use(cookieParser(process.env.SECRET_JWT_CODE))
 app.use(express.json())
 app.use(errorHandlerMiddleware)
 app.use('/api',router)
-app.listen(process.env.PORT, () => {
-    console.log(`Server Started at ${process.env.PORT}`)
+const PORT=process.env.PORT ||3000
+app.listen(PORT, () => {
+    console.log(`Server Started at ${PORT}`)
 })
